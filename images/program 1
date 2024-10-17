@@ -1,0 +1,10 @@
+#include <iostream> 
+using namespace std;
+
+int main() {
+    string name;
+    cout<<"Welcome to C++ language programming"; // display a string (a string is enclosed by "")
+    cout<<"\nGood morning Pal!, what is your name? "; // \n case sequence is a newline character 
+    cin>>name; // get string from user 
+    cout<<"Hi " + name + ", Welcome to C++ programming class. \n"; // we can concentenate string by + 
+}
